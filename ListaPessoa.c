@@ -216,13 +216,13 @@ int main(int argc, char const *argv[])
 
 		system("cls");
 
-        while(menu != 6);
+    
+	}  while(menu != 6);
 
 	free(li);
 	free(no);
 	free(aux);
 
 	return 0;
-	}
 
 }
