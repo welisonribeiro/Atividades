@@ -3,3 +3,8 @@ typedef struct pessoa{
 	int idade;
 	char sexo;
 }Pessoa;
+
+typedef struct dado{
+	Pessoa info;
+	struct dado *proximo;
+} Lista;
